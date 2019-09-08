@@ -1,0 +1,28 @@
+root {
+    background-color: silver;
+  }
+  
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: seaGreen;
+  }
+  
+  h2 {
+    color: indigo;
+    align: center;
+  }
+  
+  thead {
+    background-color: violet;
+  }
+  
+  table {
+    border: solid;
+    border-width: 5px;
+  }
+  
+  .tagLine {
+    background-color: lightYellow;
+    font-family: 'Roboto Mono', monospace;
+  }
+  

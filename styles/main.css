@@ -13,8 +13,18 @@
   display: inline;
 }
 
+.navbar {
+  background-color: seaGreen;
+  position: fixed;
+  top: 0;
+  margin: 0% 10%;
+  width: 80%;
+  border-radius: 25px;
+}
+
 .navbar a.hover {
- color: rgba(0, 128, 0, 0.5);
+ color: rgb(214, 98, 20);
+ background-color: green;
 }
 
 h1 {
@@ -45,8 +55,10 @@ h1 {
   }
 
   footer {
-    background-color: darkGreen;
     color: paleGreen;
+    background-color: darkGreen;
+    padding: 25px;
+    margin: 80px 20px;
   }
 
   .kia-ora-heading {
@@ -55,6 +67,7 @@ h1 {
 
   .kereru-img, .shag-img {
     width: 1000px;
+    padding-top: 120px;
     padding-bottom: 150px;
     border-bottom-style: solid;
     border-color: rgba(214, 98, 20);

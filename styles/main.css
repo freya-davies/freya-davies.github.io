@@ -22,10 +22,27 @@
   border-radius: 25px;
 }
 
-.navbar a.hover {
- color: rgb(214, 98, 20);
- background-color: green;
+.navbar a.hover {   /* This isn't working, need to fix */
+    color: rgb(214, 98, 20);
+    background-color: green;
 }
+
+footer { /* add in button for email contact at bottom */
+    color: paleGreen;
+    background-color: seaGreen;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50%;
+  }
+
+  #footerP {
+    padding-top: 28px;
+    margin: 0px;
+    border: 0px;
+  }
 
 h1 {
     color: rgb(214, 98, 20);
@@ -54,20 +71,13 @@ h1 {
     padding-right: 20px; */
   }
 
-  footer {
-    color: paleGreen;
-    background-color: darkGreen;
-    padding: 25px;
-    margin: 80px 20px;
-  }
-
   .kia-ora-heading {
     margin: 0px;
   }
 
-  .kereru-img, .shag-img {
+  .kereru-img, .shag-img, .takahe-img, .hihi-img {
     width: 1000px;
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 150px;
     border-bottom-style: solid;
     border-color: rgba(214, 98, 20);
@@ -75,6 +85,9 @@ h1 {
     margin-bottom: 100px;
   }
 
+
+  
+  /* Cheat sheet page */ 
   .cheat-img {  
     float: left;
     width: 480px;
@@ -91,7 +104,6 @@ h1 {
     padding: 10px;
   }
   
-  /* Cheat sheet page */ 
   .boxPadding-img, .colors-img {
     width: 50%;
   }
@@ -115,4 +127,11 @@ h1 {
   .tagLine {
     background-color: sandyBrown;
     font-family: 'Roboto Mono', monospace;
+  }
+
+
+
+  /* About me page */
+  .freya-img {
+
   }

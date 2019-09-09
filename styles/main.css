@@ -38,7 +38,15 @@ h1 {
   }
   
   p {
+    color: rgb(214, 98, 20);
+    font-size: 40px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
 
+  footer {
+    background-color: darkGreen;
+    color: paleGreen;
   }
 
   .kia-ora-heading {

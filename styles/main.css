@@ -1,28 +1,31 @@
-root {
-    background-color: silver;
+:root {
+    background-color: rgb(214, 98, 20);
+    font-family: 'Noto Sans', sans-serif;
   }
   
   h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: seaGreen;
+    color: forestGreen;
   }
   
   h2 {
     color: indigo;
     align: center;
+
   }
   
   thead {
-    background-color: violet;
+    background-color: indigo;
+    color: bisque;
   }
   
   table {
     border: solid;
     border-width: 5px;
+    border-color: forestGreen;
   }
   
   .tagLine {
-    background-color: lightYellow;
+    background-color: sandyBrown;
     font-family: 'Roboto Mono', monospace;
   }
   

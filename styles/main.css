@@ -4,8 +4,20 @@
     font-family: 'Amatic SC', cursive;
     text-align: center;
   }
-  
-  h1 {
+
+/* Navigation bar */
+.navbar-left, .navbar-right  {
+  color: rgb(214, 98, 20);
+  font-size: 40px;
+  padding: 30px 10px 30px 10px;
+  display: inline;
+}
+
+.navbar a.hover {
+ color: rgba(0, 128, 0, 0.5);
+}
+
+h1 {
     color: rgb(214, 98, 20);
     font-size: 100px;
     padding-left: 20px;
@@ -17,7 +29,6 @@
     color: rgb(214, 98, 20);
     font-size: 70px;
     padding: 10px;
-    display: inline;
   }
 
   h3 {
@@ -25,30 +36,41 @@
     font-size: 50px;
     padding: 10px;
   }
+  
+  p {
 
-  /* Navigation bar */
-  .navbar-left, .navbar-right  {
-    color: rgb(214, 98, 20);
-    font-size: 40px;
-    padding: 30px 10px 30px 10px;
-    display: inline;
-  }
-
-  .navbar a.hover {
-    color: rgba(214, 98, 20, 0.5);
   }
 
   .kia-ora-heading {
     margin: 0px;
   }
 
-  /* Home page */
-  .kereru-img {
-    height: 90%;
+  .kereru-img, .shag-img {
+    width: 1000px;
+    padding-bottom: 150px;
+    border-bottom-style: solid;
+    border-color: rgba(214, 98, 20);
+    border-width: 10px;
+    margin-bottom: 100px;
+  }
+
+  .cheat-img {  
+    float: left;
+    width: 480px;
+    height: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;                                          
+    display: inline-block;
+  }
+
+  figcaption {
+    color: rgb(214, 98, 20);
+    font-size: 40px;
+    padding: 10px;
   }
   
   /* Cheat sheet page */ 
-
   .boxPadding-img, .colors-img {
     width: 50%;
   }

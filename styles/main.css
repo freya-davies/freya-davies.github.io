@@ -67,8 +67,6 @@ h1 {
   p {
     color: rgb(214, 98, 20);
     font-size: 40px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
   }
 
   .kia-ora-heading {
@@ -87,7 +85,24 @@ h1 {
 
 
 
+/* Blog page */
+    .evenBlogP {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 20px 20px 60px 20px;
+        background-color: peachpuff;
+      }
+    
+      .oddBlogP {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 20px 20px 60px 20px;
+        background-color: rosybrown;
+      }
+
+
   /* Cheat sheet page */ 
+  /* Fix boxes, want then next to each other. */
   .cheat-img {  
     float: left;
     width: 480px;

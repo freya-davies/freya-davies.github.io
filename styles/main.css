@@ -27,7 +27,8 @@
     background-color: green;
 }
 
-footer { /* add in button for email contact at bottom */
+/* add in button for email contact at bottom */
+footer { 
     color: paleGreen; /* why is this not making the font paleGreen? */
     background-color: seaGreen;
     height: 300px;
@@ -67,6 +68,14 @@ h1 {
   p {
     color: rgb(214, 98, 20);
     font-size: 40px;
+  }
+
+  .lists {
+      color: indigo;
+      font-size: 35px;
+      list-style-position: inside;
+      text-align: left;
+      margin-left: 40px
   }
 
   .kia-ora-heading {

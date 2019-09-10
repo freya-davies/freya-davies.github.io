@@ -145,8 +145,15 @@ h1 {
     border-width: 50px;
   }
 
-  .aboutP {
+  .greenBoxP {
     margin-left: 20%;
     margin-right: 20%;
+    padding: 20px 20px 60px 20px;
     background-color: darkGreen;
+  }
+
+  .dashedBorder {
+    border-color: green;
+    border-style: dashed;
+    border-width: 15px;
   }

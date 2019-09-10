@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Blog 1</title>
+    <link href="freya-davies.github.io/styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--  blog 1-->
+
+    <div class="oddBlogP">
+        <h2>What is the difference between Margin, Border, and Padding?</h2>
+        <article>   
+            <p>Learning how to use padding, border, margin in CSS is a very useful skill when it comes to styling a website.
+            <br><br>First let’s break it down a little. So almost everything that is on a webpage have these three things surrounding it and they act in slightly different ways to each other. It’s like they are all floating about in a 3 layered bubble - some bubbles you can see, some you can see the effects of. 
+            <br><br>Have a look at the below image to see how the content (element, thing on the webpage) is in the centre of first padding, then border and finally margin.   
+            </p>
+        </article>
+        <figure>
+            <a href="https://hackernoon.com/the-box-model-44fc2c04a935" target="_blank">
+            <img class="cheat-img" src="freya-davies.github.io/images/Box-model.png" alt="Image showing that the box model has 4 parts; margin, border, padding and content." title="Box Model">
+            </a>
+            <figcaption>The Box Model</figcaption>
+        </figure>
+        <article>
+            <p>If you change the size of the content, the outer layers will move further out or in to match the size change. 
+            <br><br>Changing the padding size moves the border further away or closer to the content. And changing the margin size moves the border and content closer to or further away from any content on the page. These things you can’t actually see but you can see the effect they make on the page’s setup. And for the border, surprise surprise, it’s a border! The thickness, colour and style can all be changed for the border.
+            </p>
+
+<!-- Bold this line --> <p>Okay, now that we have that out of the way, here’s how to do it: 
+            </p>
+            </p>
+        </article>
+        <figure>
+            <img src="freya-davies.github.io/images/dashedBorderExample-1" title="" alt="">
+            <img src="freya-davies.github.io/images/dashedBorderExample-2" title="" alt="">
+        </figure>
+        <article>
+            <p> The above images show the CSS code for a class called ‘dashedBorder’ and what the browser will display. It currently is making the borders colour indigo, the style dashed and the width 15px. 
+            </p>
+        </article>
+        <figure>
+            <img src="freya-davies.github.io/images/dashedBorderExample-3" title="" alt="">
+            <img src="freya-davies.github.io/images/dashedBorderExample-4" title="" alt="">
+        </figure>
+        <p> Now there has been some things changed to the CSS code. The above images show the addition of `padding` and `margin`in the ‘dashedBorder’ class and what the browser will now display. 
+        <br><br>`padding:` has also been added and as it hasn’t been specified what side the padding if for, CSS changes all sides to 20px. You can be more specific and enter `padding-top:`, `padding-right:`, `padding-bottom:`, `padding-left:` or a faster way is to enter `padding:` followed by the measurements in clockwise order (top, right, bottom, left) with spaces between, eg: `padding: 60px, 20px, 40px, 10px;`.
+        <br><br>The margin (`margin-left:` and `margin-right:`) now take up 30% of the screen on each side and the rest of the box (content, padding and border) take up the other 40%. You can use any sort of accepted measurement such as `px` (pixels) it doesn’t have to be percentages, this goes for padding as well. `margin` also follows the same rules as padding with `padding-top:`, `padding-right:`, `padding-bottom:`,`padding-left:` and the faster way by entering `margin:` followed by the measurements in clockwise order.
+        <br><br>There are lots of different border styles to play around with, check them out <a href="https://www.w3schools.com/css/css_border.asp">here!</a> 
+        <br><br>One last thing to note about `margin` is that it combines (or collapses) which means when it is next to another margin that is the same or bigger than itself it collapses into a single margin. Eg ‘margin A’ has a margin of 20px which is next to ‘margin B’ with a margin of 40px. The total margin between the 2 is now 40px.
+        </p>
+    </div>
+        
+
+  </body>
+
+    </html>

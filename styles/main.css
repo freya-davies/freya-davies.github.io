@@ -6,7 +6,7 @@
   }
 
 /* Navigation bar */
-#navbar-left, .navbar-right  {
+#navbar-left, #navbar-right  {
   color: rgb(214, 98, 20);
   font-size: 40px;
   padding: 30px 10px 30px 10px;

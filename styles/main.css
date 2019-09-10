@@ -177,10 +177,7 @@ h1 {
   }
 
   .dashedBorder {
-    border-color: indigo;
+    border-color: green;
     border-style: dashed;
     border-width: 15px;
-    padding: 20px;
-    margin-left: 30%;
-    margin-right: 30%;  
   }

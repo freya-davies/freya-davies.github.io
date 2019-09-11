@@ -7,19 +7,19 @@
 
 /* Navigation bar */
 #navbar-left, #navbar-right  {
-  color: rgb(214, 98, 20);
-  font-size: 40px;
-  padding: 30px 10px 30px 10px;
-  display: inline;
+    color: rgb(214, 98, 20);
+    font-size: 40px;
+    padding: 30px 10px 30px 10px;
+    display: inline;
 }
 
 #navbar {
-  background-color: seaGreen;
-  position: fixed;
-  top: 0;
-  margin: 0% 10%;
-  width: 80%;
-  border-radius: 25px;
+    background-color: seaGreen;
+    position: fixed;
+    top: 0;
+    margin: 0% 10%;
+    width: 80%;
+    border-radius: 25px;
 }
 
 #navbar a.:hover {   /* This isn't working, need to fix */
@@ -70,12 +70,20 @@ h1 {
     font-size: 40px;
   }
 
-  .lists {
-      color: indigo;
-      font-size: 35px;
-      list-style-position: inside;
-      text-align: left;
-      margin-left: 40px
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+.lists {
+    color: indigo;
+    font-size: 35px;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 40px
   }
 
   .kia-ora-heading {
@@ -95,56 +103,56 @@ h1 {
 
 
 /* Blog page */
-    .evenBlog {
-        background-color: peachpuff;
-        margin-left: 20%;
-        margin-right: 20%;
-        padding: 20px 20px 60px 20px;
-        font-size: 40px;
-        color: rgb(214, 98, 20);
+.evenBlog {
+    background-color: peachpuff;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px 20px 60px 20px;
+    font-size: 40px;
+    color: rgb(214, 98, 20);
+}
+
+#evenBlogDate {
+    color: rgb(190, 154, 154);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.oddBlog {
+    background-color: rgb(190, 154, 154);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px 20px 60px 20px;
+    font-size: 40px;
+    color: indigo;
     }
-    
-    #evenBlogDate {
-        color: rgb(190, 154, 154);
-        font-size: 25px;
-        font-style: italic;
-    }
-    
-    .oddBlog {
-        background-color: rgb(190, 154, 154);
-        margin-left: 20%;
-        margin-right: 20%;
-        padding: 20px 20px 60px 20px;
-        font-size: 40px;
+
+    .oddBlog h1, .oddBlog h2{
         color: indigo;
-      }
-
-      .oddBlog h1, .oddBlog h2{
-          color: indigo;
-      }
-
-    #oddBlogDate {
-        color: peachpuff;
-        font-size: 25px;
-        font-style: italic;
     }
 
-      .evenBlog p, .oddBlog p {  /* this isn't working */
-        color: rgba(214, 98, 20);
-      }
+#oddBlogDate {
+    color: peachpuff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+    .evenBlog p, .oddBlog p {  /* this isn't working */
+    color: rgba(214, 98, 20);
+    }
 
 
-      .blogImg {
-          height: 300px;
-          padding-top: 20px;
-          padding-bottom: 20px;
-      }
-
-      .blogImgLong {
-        width: 100%;
+    .blogImg {
+        height: 300px;
         padding-top: 20px;
         padding-bottom: 20px;
-      }
+    }
+
+    .blogImgLong {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
 
 
   /* Cheat sheet page */ 

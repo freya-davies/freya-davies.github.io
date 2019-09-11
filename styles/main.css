@@ -102,18 +102,22 @@ h1 {
 
 
 /* Blog page */
-    .evenBlogP {
+    .evenBlog {
         margin-left: 20%;
         margin-right: 20%;
         padding: 20px 20px 60px 20px;
         background-color: peachpuff;
     }
     
-      .oddBlogP {
+      .oddBlog {
         margin-left: 20%;
         margin-right: 20%;
         padding: 20px 20px 60px 20px;
         background-color: rosybrown;
+      }
+
+      .evenBlog p, .oddBlog p {
+        color: rgba(214, 98, 20);
       }
 
       .blogImg {

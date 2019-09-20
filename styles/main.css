@@ -6,20 +6,7 @@
   }
 
 
-  /* For mobile phones: */
-    html {
-        font-size: 5px;
-    }
-
-
-  @media only screen and (min-width: 600px) { 
-    /* For tablets: */
-    html {
-        font-size: 7px;
-    }
-
   
-  @media only screen and (min-width: 866px) {
     /* For desktop: */
     html {
         font-size: 10px;
@@ -34,7 +21,7 @@
 /* Navigation bar */
 #navbar-left, #navbar-right  {
     color: rgb(214, 98, 20);
-    padding: 10% 0.5em 10% 0.5em;
+    padding: 10% 2% 10% 2%;
     display: inline;
 }
 /* navbar kia-ora-heading */
@@ -43,15 +30,15 @@ h4 {
     margin: 0px;
     font-size: 1.5em;
     color: rgb(214, 98, 20);
-    padding-left: 0.7em;
-    padding-right: 0.7em;
+    padding-left: 2%;
+    padding-right: 2%;
     display: inline;
 }
 
 #navbar {
     background-color: seaGreen;
     position: fixed;
-    font-size: 4em;
+    font-size: 4rem;
     top: 0;
     margin: 0% 5% 0% 5%;
     width: 90%;
@@ -96,7 +83,6 @@ h4 {
 
 /* add in button for email contact at bottom */
 footer { 
-    color: paleGreen; /* why is this not making the font paleGreen? */
     background-color: seaGreen;
     height: 10%;
     margin-top: 5%;
@@ -158,10 +144,10 @@ h1 {
 
 .lists {
     color: indigo;
-    font-size: 35px;
+    font-size: 3.5rem;
     list-style-position: inside;
     text-align: left;
-    margin-left: 40px /*  Need to check this one */
+    margin-left: 5%;
   }
 
   .alignLeft {
@@ -178,13 +164,13 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     padding: 5% 10% 5% 10%;
-    font-size: 40px;
+    font-size: 4rem;
     color: rgb(214, 98, 20);
 }
 
 #evenBlogDate {
     color: rgb(190, 154, 154);
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: italic;
 }
 
@@ -193,7 +179,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     padding: 5% 10% 5% 10%;
-    font-size: 40px;
+    font-size: 4rem;
     color: indigo;
     }
 
@@ -203,7 +189,7 @@ h1 {
 
 #oddBlogDate {
     color: peachpuff;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: italic;
 }
 
@@ -243,8 +229,8 @@ h1 {
 
   figcaption {
     color: rgb(214, 98, 20);
-    font-size: 40px;
-    padding: 10px;
+    font-size: 4rem;
+    padding: 2%;
   }
   
   .boxPadding-img, .colors-img {
@@ -299,3 +285,18 @@ h1 {
     border-style: dashed;
     border-width: 10px;
   }
+
+
+  @media only screen and (max-width: 425px) { 
+    /* For mobile phones: */
+      html {
+          font-size: 5px;
+      }
+  
+  
+    @media only screen and (max-width: 768px) { 
+      /* For tablets: */
+      html {
+          font-size: 7px;
+      }
+  

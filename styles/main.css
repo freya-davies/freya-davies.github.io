@@ -71,6 +71,7 @@ h4 {
 
 .dropdown .dropbtn {
     background-color: seaGreen;
+    color: rgb(214, 98, 20);
     position: fixed;
     top: 0;
     left: 0;
@@ -79,13 +80,8 @@ h4 {
     display: block;
     font-size: 5em;
     font-family: 'Amatic SC', cursive;
-    color: rgb(214, 98, 20);
     border: none;
     outline: none;
-}
-
-.topnav .icon {
-    display: none;
 }
   
   .dropdown-content {
@@ -113,7 +109,6 @@ h4 {
   
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
-    color: white;
   }
   
   .dropdown-content a:hover {

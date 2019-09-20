@@ -157,7 +157,7 @@ footer {
 
   a:link {
     text-decoration: none;
-    /* color: inherit; */
+    color: inherit;
   }
   
   a:visited {

@@ -159,12 +159,14 @@ footer {
     text-decoration: none;
     color: inherit;
   }
-  
+
   a:visited {
     text-decoration: none;
   }
 
   
+
+
 
 
 
@@ -196,8 +198,12 @@ h1 {
     font-size: 4rem;
   }
 
+  span.orangeText a:link, span.orangeText a:visited {
+    color: rgb(214, 98, 20);
+  }
+
   .orangeText {
-    colour: rgb(214, 98, 20);
+    color: rgb(214, 98, 20);
   }
 
 

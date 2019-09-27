@@ -8,7 +8,7 @@
 
 
 /* For desktop: */
-html {
+body {
     font-size: 10px;
 }
 
@@ -38,7 +38,7 @@ h4 {
 #navbar{
     background-color: seaGreen;
     position: fixed;
-    font-size: 4rem;
+    font-size: 40px;
     top: 0;
     margin: 0% 5% 0% 5%;
     width: 90%;
@@ -181,21 +181,21 @@ h1 {
 
   h2 {
     color: rgb(214, 98, 20);
-    font-size: 7rem;
+    font-size: 5rem;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   h3 {
     color: indigo;
-    font-size: 5rem;
+    font-size: 4rem;
     padding-left: 10%;
     padding-right: 10%;
   }
   
   p {
     color: rgb(214, 98, 20);
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   span.orangeText a:link, span.orangeText a:visited {
@@ -204,6 +204,10 @@ h1 {
 
   .orangeText {
     color: rgb(214, 98, 20);
+  }
+
+  #purpleText {
+    color: indigo;
   }
 
 
@@ -365,23 +369,25 @@ h1 {
 
 @media only screen and (max-width: 425px) { 
 /* For mobile phones: */
-    html {
-        font-size: 5px;
-    }
+  body {
+    font-size: 5px;
+  }
 
-    #navbar {
-        visibility: hidden;
-    }
-    .dropdown {
+  #navbar {
+    visibility: hidden;
+    font-size: 20px;
+  }
+
+  .dropdown {
     visibility: visible;
-    }
+  }
 
-    .topnav a.icon {
+  .topnav a.icon {
     float: right;
     display: block;
-    }
+  }
 
-.freya-img {
+  .freya-img {
     width: 70%;
     margin: 0% 5% 10% 5%;
     border-width: 10px;
@@ -389,32 +395,40 @@ h1 {
 }
 
 
+@media only screen and (min-width: 426px, max-width: 768px) { 
+  /* For tablets ONLY: */
+  body {
+    font-size: 7px;
+  }
 
+  #navbar {
+    font-size: 28px;
+  }
 
 
 @media only screen and (max-width: 768px) { 
-    /* For tablets: */
-    html {
-        font-size: 7px;
-    }
+  /* For tablets: */
 
-.topnav.responsive {position: relative;}
-.topnav.responsive .icon {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-}
-.topnav.responsive a {
+  }
+  .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
-}
-.topnav.responsive .dropdown {float: none;}
-.topnav.responsive .dropdown-content {position: relative;}
-.topnav.responsive .dropdown .dropbtn {
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
-}
+  }
 }
   
+
+
+

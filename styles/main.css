@@ -1,5 +1,6 @@
 :root {
-    /*background-color: rgb(214, 98, 20); */
+    /* orange color: rgb(214, 98, 20); */
+    /* purple color: indigo; */
     background-color: green;
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -174,8 +175,8 @@ footer {
 h1 {
     color: rgb(214, 98, 20);
     font-size: 6rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
     display: inline;
   }
 
@@ -210,7 +211,9 @@ h1 {
     color: indigo;
   }
 
-
+  .smallHeadingFont {
+    font-size: 3rem;
+  }
 
   ul, .lists {
     font-size: 2.5rem;
@@ -222,7 +225,7 @@ h1 {
 
   .alignLeft {
     text-align: left;
-    padding-left: 5%;
+    padding: 0%, 0%, 0%, 5%;
   }
   
 
@@ -233,37 +236,53 @@ h1 {
 
 /* Blog page */
 .evenBlog {
-    background-color: peachpuff;
+    /* background-color: peachpuff;
     margin-left: 10%;
     margin-right: 10%;
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
+    color: rgb(214, 98, 20); */
+
+    background-color: peachpuff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1% 5% 5% 5%;
+    font-size: 4rem;
     color: rgb(214, 98, 20);
+    position: relative;
+
 }
 
 #evenBlogDate {
     color: rgb(190, 154, 154);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
 .oddBlog {
-    background-color: rgb(190, 154, 154);
+    /* background-color: rgb(190, 154, 154);
     margin-left: 10%;
     margin-right: 10%;
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
+    color: indigo; */
+
+    background-color: rgb(190, 154, 154);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1% 5% 5% 5%;
+    font-size: 4rem;
     color: indigo;
+    position: relative;    
     }
 
+  #oddBlogDate {
+    color: peachpuff;
+    font-size: 1.5rem;
+    font-style: italic;
+}
 .oddBlog h1, .oddBlog h2{
     color: indigo;
-}
-
-#oddBlogDate {
-    color: peachpuff;
-    font-size: 2.5rem;
-    font-style: italic;
 }
 
 .evenBlog p, .oddBlog p {  /* this isn't working */

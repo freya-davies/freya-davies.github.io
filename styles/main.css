@@ -236,12 +236,12 @@ h1 {
 
 /* Blog page */
 .evenBlog {
-    /* background-color: peachpuff;
+    background-color: peachpuff;
     margin-left: 10%;
     margin-right: 10%;
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
-    color: rgb(214, 98, 20); */
+    color: rgb(214, 98, 20);
 }
 
 .evenBlogBox {
@@ -265,12 +265,12 @@ h1 {
 }
 
 .oddBlog {
-    /* background-color: rgb(190, 154, 154);
+    background-color: rgb(190, 154, 154);
     margin-left: 10%;
     margin-right: 10%;
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
-    color: indigo; */
+    color: indigo;
 }
 
 .oddBlogBox {

@@ -248,12 +248,13 @@ h1 {
     background-color: peachpuff;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 350px;
-    height: 350px;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    width: 340px;
+    height: 330px;
     font-size: 4rem;
     color: rgb(214, 98, 20);
+    display: inline-block;
 }
 
 #evenBlogDate {
@@ -276,12 +277,13 @@ h1 {
     background-color: rgb(190, 154, 154);
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 350px;
-    height: 350px;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    width: 340px;
+    height: 330px;
     font-size: 4rem;
     color: indigo;
+    display: inline-block;
     }
 
   #oddBlogDate {
@@ -315,6 +317,10 @@ h1 {
 
 .rowOfThree {
   display: flex;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -443,7 +449,10 @@ h1 {
 @media only screen and (max-width: 768px) { 
   /* For tablets: */
 
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -454,8 +463,14 @@ h1 {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;

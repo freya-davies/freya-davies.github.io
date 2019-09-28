@@ -212,7 +212,7 @@ h1 {
   }
 
   .smallHeadingFont {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   ul, .lists {
@@ -242,21 +242,25 @@ h1 {
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
     color: rgb(214, 98, 20); */
+}
 
+.evenBlogBox {
     background-color: peachpuff;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 1% 5% 5% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 350px;
+    height: 350px;
     font-size: 4rem;
     color: rgb(214, 98, 20);
-    position: relative;
-
 }
 
 #evenBlogDate {
     color: rgb(190, 154, 154);
     font-size: 1.5rem;
     font-style: italic;
+    padding top: 1%;
 }
 
 .oddBlog {
@@ -266,20 +270,25 @@ h1 {
     padding: 1% 5% 5% 5%;
     font-size: 4rem;
     color: indigo; */
+}
 
+.oddBlogBox {
     background-color: rgb(190, 154, 154);
     margin-left: 5%;
     margin-right: 5%;
-    padding: 1% 5% 5% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 350px;
+    height: 350px;
     font-size: 4rem;
     color: indigo;
-    position: relative;    
     }
 
   #oddBlogDate {
     color: peachpuff;
     font-size: 1.5rem;
     font-style: italic;
+    padding top: 1%;
 }
 .oddBlog h1, .oddBlog h2{
     color: indigo;
@@ -304,7 +313,9 @@ h1 {
     overflow: hidden;
 }
 
-
+.rowOfThree {
+  display: flex;
+}
 
 
   /* Cheat sheet page */ 
@@ -424,6 +435,9 @@ h1 {
   #navbar {
     font-size: 28px;
   }
+  .rowOfThree {
+    display: flex;
+  }
 
 
 @media only screen and (max-width: 768px) { 
@@ -448,7 +462,6 @@ h1 {
     text-align: left;
   }
 }
-  
 
 
 

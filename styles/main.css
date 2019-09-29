@@ -235,6 +235,13 @@ h1 {
 
 
 /* Blog page */
+.rowOfThree {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .evenBlog {
     background-color: peachpuff;
     margin-left: 10%;
@@ -316,13 +323,7 @@ h1 {
     overflow: hidden;
 }
 
-.rowOfThree {
-  display: flex;
-  text-align: center;
-  margin: 0 auto;
-  width: 80%;
-  
-}
+
 
 
   /* Cheat sheet page */ 
@@ -430,6 +431,31 @@ h1 {
     margin: 0% 5% 10% 5%;
     border-width: 10px;
     } 
+  
+  .evenBlogBox {
+    background-color: peachpuff;
+    padding: 5% 10% 5% 10%;
+    font-size: 4rem;
+    color: rgb(214, 98, 20);
+    height: auto;
+    width: 100%;
+}
+
+  .oddBlogBox {
+    background-color: rgb(218, 177, 177);
+    padding: 5% 10% 5% 10%;
+    font-size: 4rem;
+    color: indigo;
+    height: auto;
+    width: 100%;
+    }
+
+  .rowOfThree {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
 }
 
 
@@ -442,10 +468,7 @@ h1 {
   #navbar {
     font-size: 28px;
   }
-  .rowOfThree {
-    display: flex;
-  }
-
+}
 
 @media only screen and (max-width: 768px) { 
   /* For tablets: */
@@ -476,6 +499,30 @@ h1 {
     display: block;
     width: 100%;
     text-align: left;
+  }
+  .evenBlogBox {
+    background-color: peachpuff;
+    padding: 5% 10% 5% 10%;
+    font-size: 4rem;
+    color: rgb(214, 98, 20);
+    height: auto;
+    width: 100%;
+}
+
+  .oddBlogBox {
+    background-color: rgb(218, 177, 177);
+    padding: 5% 10% 5% 10%;
+    font-size: 4rem;
+    color: indigo;
+    height: auto;
+    width: 100%;
+    }
+
+  .rowOfThree {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 

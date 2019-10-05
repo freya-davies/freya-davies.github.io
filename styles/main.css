@@ -163,6 +163,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 
@@ -326,9 +327,8 @@ ul, .lists {
 
 
 
-  /* Cheat sheet page */ 
   /* Fix boxes, want then next to each other. */
-.cheat-img {  
+/* .cheat-img {  
   float: left;
   width: 480px;
   height: 300px;
@@ -368,6 +368,39 @@ table {
 .tagLine {
   background-color: sandyBrown;
   font-family: 'Roboto Mono', monospace;
+} */
+
+
+
+
+/* projects page */
+.minesweeperBox, .calculatorBox {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 1% 5% 1% 5%;
+}
+
+.minesweeperBox {
+  background-image: url("../images/minesweeperBackground.jpg");
+}
+
+.calculatorBox {
+  background-color: darkGray;
+}
+
+.minesweeperBox p {
+  color: black;
+  background-color: rgb(219, 230, 0);
+  padding: 1% 5% 1% 5%;
+
+}
+
+.calculatorBox p{
+  color: green;
+  background-color: indigo;
+  padding: 1% 5% 1% 5%;
 }
 
 
@@ -384,21 +417,18 @@ table {
   border-width: 30px;
 }
 
-.greenBoxP {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 1% 5% 1% 5%;
-  background-color: rgba(0, 100, 0, 0.514);
-}
-
 .dashedBorder {
   border-color: green;
   border-style: dashed;
   border-width: 10px;
 }
 
-
-
+.greenBoxP {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1% 5% 1% 5%;
+  background-color: rgba(0, 100, 0, 0.514);
+}
 
 
 

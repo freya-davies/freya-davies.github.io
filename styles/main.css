@@ -374,7 +374,7 @@ table {
 
 
 /* projects page */
-.minesweeperBox, .calculatorBox {
+.minesweeperBox, .calculatorBox, .inflateTheUnicorn {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
@@ -386,10 +386,6 @@ table {
   background-image: url("../images/minesweeperBackground.jpg");
 }
 
-.calculatorBox {
-  background-color: darkGray;
-}
-
 .minesweeperBox p {
   color: black;
   background-color: rgb(219, 230, 0);
@@ -397,11 +393,28 @@ table {
 
 }
 
-.calculatorBox p{
+.calculatorBox {
+  background-color: darkGray;
+}
+
+.calculatorBox p {
   color: green;
   background-color: indigo;
   padding: 1% 5% 1% 5%;
 }
+
+.inflateTheUnicorn {
+  background-color: rgb(211, 158, 88);
+  /* padding: 1% 5% 1% 5%; */
+}
+
+.inflateTheUnicorn p {
+  color: black;
+  font-family: 'Rye', cursive;
+  background-color: BurlyWood;
+  padding: 1% 5% 1% 5%;
+}
+
 
 
 
